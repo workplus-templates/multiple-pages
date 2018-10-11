@@ -1,0 +1,41 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "Multiple pages starter project.",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist/ && webpack --mode production -p --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "author": "<%= author %>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "imports-loader": "^0.8.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "lodash": "^4.17.10",
+    "style-loader": "^0.22.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.1",
+    "countup.js": "^1.9.3",
+    "crypto-js": "^3.1.9-1",
+    "date-fns": "^1.29.0",
+    "fastclick": "^1.0.6",
+    "mcx-dialog-mobile": "^0.1.0",
+    "zepto": "^1.2.0"
+  }
+}
